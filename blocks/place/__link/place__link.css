@@ -1,0 +1,19 @@
+.place__link {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 1.22;
+    color: white;
+    margin: 0 0 48px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.place__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:680px) {
+    .place__link {
+        margin-bottom: 32px;
+    }  
+}

@@ -1,0 +1,25 @@
+.cover__link {
+    display: block;
+    position: absolute;  
+    top: 92px;  
+    left: 0;
+    height: calc(100% - 92px);
+    width: 100%;
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    z-index: 1;
+}
+
+.cover__link:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width:680px) {
+    .cover__link {
+        top: 66px;  
+        height: calc(100% - 66px);
+    }
+}

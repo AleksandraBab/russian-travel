@@ -1,0 +1,21 @@
+.lang__lang-link {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 1.17;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.lang__lang-link:hover {
+opacity: 0.8;
+}
+
+@media screen and (max-width:680px) {
+    .lang__lang-link {
+        font-size: 18px;
+        line-height: 1.1;
+    }
+}
