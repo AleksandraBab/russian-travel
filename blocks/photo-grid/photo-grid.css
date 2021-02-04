@@ -1,8 +1,6 @@
 .photo-grid{
     width: calc(100% - 96px);
     max-width: 1184px;
-    margin: auto;
-    padding-top: 92px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: minmax(233px, 284px) 16px minmax(233px, 284px) 16px minmax(233px, 284px) 16px minmax(233px, 284px);
@@ -15,7 +13,7 @@
 
 @media screen and (max-width:1024px) {
     .photo-grid {
-        width: calc(100% - 48px);
+        width: calc(100% - 96px);
         grid-template-columns: repeat(3, minmax(230px, 300px));
     }
 }
@@ -25,8 +23,6 @@
         width: calc(100% - 48px);
         -ms-grid-columns: (minmax(280px, 1fr)) (minmax(280px, 1fr));
         grid-template-columns: repeat(2, minmax(280px, 1fr));
-        padding-top: 88px;
-        margin: 0;
     }
 }
 
@@ -35,8 +31,6 @@
         width: calc(100% - 32px);
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
         gap: 12px;
-        padding-top: 64px;
-        margin: auto;
     }
 }
 

@@ -1,6 +1,4 @@
 .lead {
-    margin: auto;
-    padding-top: 56px;
     width: 984px;
     max-width: calc(100% - 296px);
 }
@@ -8,8 +6,7 @@
 
 @media screen and (max-width:1024px) {
     .lead {
-        max-width: calc(100% - 48px);
-        padding-top: 48px;
+        max-width: calc(100% - 96px);
     }
 }
 
